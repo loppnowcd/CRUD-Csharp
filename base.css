@@ -1,0 +1,61 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 90%; /* o header ocupa 20%, o resto 80% */
+    height: 95vh; /* garante que o grid ocupe toda a tela */
+    box-sizing: border-box; /* garante que o limite do conteúdo vai ficar dentro dessa 'box', sem correr o risco de crescer além dessas fronteiras */
+}
+
+header {
+    display: grid;
+    align-content: center;
+    box-sizing: border-box; /* garante que o limite do conteúdo vai ficar dentro dessa 'box', sem correr o risco de crescer além dessas fronteiras */
+    grid-column: 1 / -1; /* ocupa as duas colunas */
+}
+
+.conteudodapagina1 {
+    display: grid;
+    grid-column: 1 / 2;
+    justify-content: center; /* centraliza o conteúdo horizontalmente */
+    align-items: center; /* centraliza o conteúdo verticalmente */
+    text-align: justify; /* justifica o texto */
+    margin: 20% 10% 20% 20%; /*topo, direita, baixo, esquerda */
+}
+
+.conteudodapagina2 {
+    display: grid;
+    grid-column: 2 / 3;
+    justify-content: center; /* centraliza o conteúdo horizontalmente */
+    align-items: center; /* centraliza o conteúdo verticalmente */
+    text-align: justify; /* justifica o texto */
+    margin: 20% 20% 20% 10%; /*topo, direita, baixo, esquerda */
+}
+
+.cabelhoesquerdo {
+    display: grid;
+    grid-column: 1 / 2;
+    margin-left: 25px;
+    align-content: center;
+    justify-content: flex-start; /* alinha à esquerda */
+}
+
+.cabelhodireito {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column: 2 / 3;
+    margin-right: 20px;
+    align-content: center;
+    justify-content: flex-end; /* alinha à direita */
+}
+
+.english {
+    display: grid;
+    grid-column: 6 / 7;
+    justify-content: center; /* centraliza o conteúdo horizontalmente */
+}
+
+.portugues {
+    display: grid;
+    grid-column: 7 / 8;
+    justify-content: center; /* centraliza o conteúdo horizontalmente */
+}
