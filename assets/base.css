@@ -4,6 +4,7 @@ body {
     grid-template-rows: 10% 90%; /* o header ocupa 20%, o resto 80% */
     height: 95vh; /* garante que o grid ocupe toda a tela */
     box-sizing: border-box; /* garante que o limite do conteúdo vai ficar dentro dessa 'box', sem correr o risco de crescer além dessas fronteiras */
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 header {
