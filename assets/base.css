@@ -91,3 +91,31 @@ header {
     grid-column: 7 / 8;
     justify-content: center; /* centraliza o conteúdo horizontalmente */
 }
+
+.janela {
+    width: 100%;
+    max-width: 800px; /* Define um tamanho máximo */
+    height: 300px;
+    overflow-y: auto; /* Adiciona scroll caso necessário */
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
