@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 [Route("api/[controller]")]
 public class UsuariosController : ControllerBase
 {
-    private readonly string _connectionString = "Server=mysql-cdloppnow-crud-database.e.aivencloud.com;Port=23771;Database=defaultdb;User=avnadmin;Password=SUA_SENHA_AQUI;SslMode=Required;";
-
+private readonly string _connectionString = $"Server=mysql-cdloppnow-crud-database.e.aivencloud.com;Port=23771;Database=defaultdb;User=avnadmin;Password={Environment.GetEnvironmentVariable("MYSQL_PASSWORD")};SslMode=Required;";
     // Obter todos os usuários
     [HttpGet]
     public async Task<IActionResult> GetUsuarios()
