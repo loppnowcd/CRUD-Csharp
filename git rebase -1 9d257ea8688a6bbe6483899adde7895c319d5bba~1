@@ -1,0 +1,89 @@
+[33mcommit bcd063d2a7cb1107f7fbb9b0e7139b2c1b2952c4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Wed Feb 19 23:20:23 2025 -0300
+
+    Removidos arquivos C# e arquivos de banco de dados. A intencao era criar um banco acessivel sem restricao para testar essa funcionalidade, mas nao foi possivel, e o github bloquou arquivo .env
+
+[33mcommit 99e3f225be2ec2e720ca1db460167168cf12eb9f[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Mon Feb 17 22:22:37 2025 -0300
+
+    Excluido arquivo .env com a senhra para que o CRUD esteja funcional
+
+[33mcommit 9d257ea8688a6bbe6483899adde7895c319d5bba[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Mon Feb 17 22:15:51 2025 -0300
+
+    Adicionada funcionalidade javascript nos formularios para testar
+
+[33mcommit 9d5a6f463e36ea525922a3e247abd59dd6f3991b[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Mon Feb 17 22:02:17 2025 -0300
+
+    Incluso arquivos C# e demais documentos para conexao com banco de dados em servidor.
+
+[33mcommit 2b8a79678c29edc6d80891ff02aef293c0989b2c[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Sun Feb 16 23:23:18 2025 -0300
+
+    Excluido arquivo .txt teste e incluso arquivo script.js
+
+[33mcommit 8db052576ae2c09b3f6d1fc88139c76488878e1a[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Sat Feb 15 18:31:55 2025 -0300
+
+    Testando transferencia de arquivos. Adicionado arquivo .txt para teste
+
+[33mcommit 335141b63282acdf42000c217b8412ec30a22e37[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Sat Feb 15 18:28:05 2025 -0300
+
+    Testanto transferencia de arquivos
+
+[33mcommit 1816b53e3f685427abeb481f6a24b3ac7a0947b8[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Thu Feb 13 22:57:17 2025 -0300
+
+    Alterado HMTL para receber imput de dados e script para dar modelo de mascara para as entradas nos imputs
+
+[33mcommit e55f68da46d190881e94047bd1ae093579d8a305[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Thu Feb 13 21:46:12 2025 -0300
+
+    Corringindo erros de sintaxe no arquivo index.html
+
+[33mcommit 8b0cd3a15fe9bb7431c7eb7d53064ecbb93581e9[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Thu Feb 13 21:44:01 2025 -0300
+
+    Organizando arquivos do CRUD
+
+[33mcommit 6c32cd97abc3ca2a775833f40aff0de93d020676[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Mon Feb 10 23:51:23 2025 -0300
+
+    Corrigida sintaxe de div nao fechadas e links com erro
+
+[33mcommit 08cc7e25457060d0231a46491831894ea99680d3[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Mon Feb 10 23:40:27 2025 -0300
+
+    Alterando index para iniciarlizar pages
+
+[33mcommit d50de81a967e8ed9dd2eb2e60a11fd5340758784[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Mon Feb 10 23:33:10 2025 -0300
+
+    Estilizando a pagina e organizando anexos
+
+[33mcommit eb88a36b3f0be6e2b8d22e68e4a08924449eeccc[m
+Author: loppnowcd <loppnow.cd@gmail.com>
+Date:   Sun Feb 9 23:58:14 2025 -0300
+
+    Iniciando o pull dos arquivos.
+
+[33mcommit 40730a0a508e7caf312d693f0b3701442cbfc96b[m
+Author: Christian Loppnow <loppnow.cd@gmail.com>
+Date:   Sun Feb 9 22:42:28 2025 -0300
+
+    Initial commit
