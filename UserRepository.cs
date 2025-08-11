@@ -5,8 +5,8 @@ using System.Collections.Generic; // Para usar List<Usuario>
 
 public class UserRepository
 {
-    // A string de conexão para o banco de dados SQLite.
-    // Garante que o UserRepository saiba onde encontrar o arquivo do DB.
+    // a string de conexão para o banco de dados SQLite
+    // garante que o UserRepository saiba onde encontrar o arquivo do DB
     private const string ConnectionString = "Data Source=meu_crud.db;";
 
     /// <summary>
