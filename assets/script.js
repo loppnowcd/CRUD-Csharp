@@ -1,8 +1,8 @@
 // assets/script.js
 
-// Garante que o script só execute depois que o HTML estiver completamente carregado
+// garante que o script só execute depois que o HTML estiver completamente carregado
 document.addEventListener('DOMContentLoaded', () => {
-    // Função para enviar os dados do formulário para a API
+    // funcao para enviar os dados do formulário para a API
     document.getElementById('formCadastro').addEventListener('submit', async function(event) { // Adicionado 'async'
         event.preventDefault(); // Impede o envio do formulário padrão
 
